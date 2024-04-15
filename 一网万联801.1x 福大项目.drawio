@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2024-04-15T10:19:25.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="a0vZ9GSDSZp-gGkasRZi" version="24.2.3" type="github">
+  <diagram name="第 1 页" id="-Of3WvEn8So9T59U_X3N">
+    <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-1" value="Radius 认证服务器&lt;div&gt;172.19.254.102&lt;br&gt;&lt;/div&gt;&lt;div&gt;172.19.254.101&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jmr5O9M6nU-sTgkdMzln-3" target="jmr5O9M6nU-sTgkdMzln-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-3" value="OLT" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jmr5O9M6nU-sTgkdMzln-4" target="jmr5O9M6nU-sTgkdMzln-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-6" value="信任端口(不需要认证)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jmr5O9M6nU-sTgkdMzln-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.5524" y="1" relative="1" as="geometry">
+            <mxPoint x="54" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jmr5O9M6nU-sTgkdMzln-4" target="jmr5O9M6nU-sTgkdMzln-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-10" value="需要认证端口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jmr5O9M6nU-sTgkdMzln-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.8242" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FdQh9wfJEga42K8Vl6-k-1" target="jmr5O9M6nU-sTgkdMzln-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-25" value="VLAN504" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jmr5O9M6nU-sTgkdMzln-16" vertex="1" connectable="0">
+          <mxGeometry x="0.175" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="jmr5O9M6nU-sTgkdMzln-4" target="jmr5O9M6nU-sTgkdMzln-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-23" value="20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jmr5O9M6nU-sTgkdMzln-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.0211" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-24" value="VLAN是2052" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jmr5O9M6nU-sTgkdMzln-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.0526" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-4" value="华三交换机" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-7" value="PC1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jmr5O9M6nU-sTgkdMzln-11" target="jmr5O9M6nU-sTgkdMzln-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-11" value="&lt;div&gt;WAN:10.32.152.255/23&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ONU&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LAN:192.168.101.1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="430" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-13" value="PC2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-17" value="Internet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmr5O9M6nU-sTgkdMzln-30" value="认证共享密钥zxxy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FdQh9wfJEga42K8Vl6-k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FdQh9wfJEga42K8Vl6-k-1" target="jmr5O9M6nU-sTgkdMzln-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FdQh9wfJEga42K8Vl6-k-1" value="认证服务器网关&lt;div&gt;10.32.152.1&lt;/div&gt;&lt;div&gt;MAC地址18:c0:09:04:28:78&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="90" width="165" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
